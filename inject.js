@@ -107,7 +107,7 @@ function importFromModule(container, imports) {
 }
 
 // inject SPresetEditor
-/*if (true) {
+if (true) {
   // fetch html file
   fetch('https://cdn.jsdelivr.net/gh/DAH-Forever/STFiles@main/bundled.html')
     .then(res => res.text())
@@ -271,7 +271,7 @@ function importFromModule(container, imports) {
         }
         
         /* Particle effect on hover */
-/*        .spreset-btn-particles {
+        .spreset-btn-particles {
           position: absolute;
           width: 100%;
           height: 100%;
@@ -318,7 +318,7 @@ function importFromModule(container, imports) {
         }
         
         /* Border glow animation */
- /*       .spreset-btn-border-glow {
+        .spreset-btn-border-glow {
           position: absolute;
           top: -2px;
           left: -2px;
@@ -367,7 +367,7 @@ function importFromModule(container, imports) {
       });
       $('#completion_prompt_manager').before(spresetButton);
     });
-}*/
+}
 
 $(async () => {
   await fetch('/version')
