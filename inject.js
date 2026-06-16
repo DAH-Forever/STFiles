@@ -109,7 +109,7 @@ function importFromModule(container, imports) {
 // inject SPresetEditor
 if (true) {
   // fetch html file
-  fetch('https://raw.githubusercontent.com/DAH-Forever/STFiles/refs/heads/main/bundled.html')
+  fetch('https://cdn.jsdelivr.net/gh/DAH-Forever/STFiles@main/bundled.html')
     .then(res => res.text())
     .then(htmlText => {
       // create iframe with text as same-origin iframe
